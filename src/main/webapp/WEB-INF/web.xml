@@ -38,4 +38,14 @@
 		<servlet-name>Sunil Kumar Gupta</servlet-name>
 		<jsp-file>/ExampleOfApplicationImplicitObjectOutPut.jsp</jsp-file>
 	</servlet>
+	
+	<servlet>  
+  <servlet-name>s1</servlet-name>  
+  <servlet-class>com.java.jsp.ControllerServlet</servlet-class>  
+  </servlet>  
+  
+  <servlet-mapping>  
+  <servlet-name>s1</servlet-name>  
+  <url-pattern>/ControllerServlet</url-pattern>  
+  </servlet-mapping>
 </web-app>
