@@ -33,6 +33,14 @@
 	</properties>
 
 	<dependencies>
+
+	<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version> <!-- Use the latest version -->
+</dependency>
+
+
 		<dependency>
       <groupId>org.apache.geronimo.specs</groupId>
       <artifactId>geronimo-servlet_2.4_spec</artifactId>
@@ -89,6 +97,7 @@
 			<artifactId>axis2-transport-local</artifactId>
 			<version>${axis2.version}</version>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
